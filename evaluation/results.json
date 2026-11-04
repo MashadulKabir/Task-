@@ -1,0 +1,73 @@
+{
+  "dataset_type": "small synthetic smoke-test dataset; not representative of real invoices",
+  "documents": 3,
+  "field_accuracy": 0.9583,
+  "correct_fields": 23,
+  "total_fields": 24,
+  "document_processing_success_rate": 1.0,
+  "document_failure_rate": 0.0,
+  "total_wall_time_ms": 1.413,
+  "average_extraction_time_ms": 0.465,
+  "per_document": [
+    {
+      "id": "synthetic-001",
+      "correct_fields": 8,
+      "fields": 8,
+      "elapsed_ms": 1.344,
+      "actual": {
+        "invoice_number": "INV-1001",
+        "invoice_date": "2026-10-20",
+        "supplier_name": "ABC Supplies Ltd",
+        "customer_name": "Delta Trading",
+        "subtotal": 1000.0,
+        "tax": 150.0,
+        "total": 1150.0,
+        "currency": "BDT",
+        "line_items": [],
+        "confidence_notes": [
+          "Heuristic extraction was used; review the extracted values before relying on them."
+        ]
+      }
+    },
+    {
+      "id": "synthetic-002",
+      "correct_fields": 7,
+      "fields": 8,
+      "elapsed_ms": 0.028,
+      "actual": {
+        "invoice_number": "INV-204",
+        "invoice_date": "2026/09/01",
+        "supplier_name": "North Star Office",
+        "customer_name": "Tuhin Tech",
+        "subtotal": 2500.0,
+        "tax": 250.0,
+        "total": 2500.0,
+        "currency": "USD",
+        "line_items": [],
+        "confidence_notes": [
+          "Heuristic extraction was used; review the extracted values before relying on them."
+        ]
+      }
+    },
+    {
+      "id": "synthetic-003",
+      "correct_fields": 8,
+      "fields": 8,
+      "elapsed_ms": 0.024,
+      "actual": {
+        "invoice_number": "B-778",
+        "invoice_date": "2026-08-12",
+        "supplier_name": "Paper House",
+        "customer_name": "Example Ltd",
+        "subtotal": 500.0,
+        "tax": 0.0,
+        "total": 500.0,
+        "currency": "BDT",
+        "line_items": [],
+        "confidence_notes": [
+          "Heuristic extraction was used; review the extracted values before relying on them."
+        ]
+      }
+    }
+  ]
+}

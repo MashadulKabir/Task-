@@ -1,0 +1,5 @@
+[
+  {"id":"synthetic-001","text":"INVOICE NO: INV-1001\nInvoice Date: 2026-10-20\nSupplier: ABC Supplies Ltd\nBill To: Delta Trading\nSubtotal: 1000.00\nVAT: 150.00\nGrand Total: 1150.00\nCurrency: BDT","expected":{"invoice_number":"INV-1001","invoice_date":"2026-10-20","supplier_name":"ABC Supplies Ltd","customer_name":"Delta Trading","subtotal":1000.0,"tax":150.0,"total":1150.0,"currency":"BDT"}},
+  {"id":"synthetic-002","text":"Invoice Number: INV-204\nDate: 2026/09/01\nVendor: North Star Office\nCustomer: Tuhin Tech\nSub Total: $2,500.00\nTax: $250.00\nAmount Due: $2,750.00","expected":{"invoice_number":"INV-204","invoice_date":"2026/09/01","supplier_name":"North Star Office","customer_name":"Tuhin Tech","subtotal":2500.0,"tax":250.0,"total":2750.0,"currency":"USD"}},
+  {"id":"synthetic-003","text":"Bill No: B-778\nInvoice Date: 2026-08-12\nSeller: Paper House\nBuyer: Example Ltd\nSubtotal: 500\nTax: 0\nTotal: 500\nBDT","expected":{"invoice_number":"B-778","invoice_date":"2026-08-12","supplier_name":"Paper House","customer_name":"Example Ltd","subtotal":500.0,"tax":0.0,"total":500.0,"currency":"BDT"}}
+]
